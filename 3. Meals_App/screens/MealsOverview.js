@@ -22,7 +22,6 @@ const MealsOverview = ({ route, navigation }) => {
 
   return (
     <View style={styles.constainer}>
-      <Text>Meals Overview - {category_id}</Text>
       <FlatList
         data={meals}
         keyExtractor={(item) => item.id}
